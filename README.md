@@ -11,5 +11,5 @@ There are two types of databases used with PHP - MySQL (relational database) and
 ![](images/title.jpg)
 
 
-## Licence and copyright
+### Licence and copyright
 © Zuzana Korinkova
