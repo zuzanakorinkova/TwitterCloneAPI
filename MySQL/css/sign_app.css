@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+body {
+    background-color: #efefef;
+    position: fixed;
+    padding-left: 6.5rem;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+/*------- end-NAV ------------*/
+.s1 {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    padding-left: 1rem;
+    place-items: center;
+}
+.s1_1 {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    gap: 1.5rem;
+    line-height: 2rem;
+}
+.s1_1 h1 {
+    font-size: 3.5rem;
+}
+.s1_1 p {
+    font-size: 1rem;
+}
+.s1_1 a {
+    text-decoration: none;
+    color: #020202;
+}
+#name {
+    color: #02020275;
+    font-style: italic;
+   padding-left: 3rem;
+}
+.s1_2{
+  background: url("../assets/gradients.png") no-repeat;
+  background-size: contain;
+  width: 150%;
+  height: 100vh;
+
+}
+.s1_2_1 h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
+}
+.s1_2_1{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 0.5rem;
+    padding: 10rem 8rem 8rem 8rem;
+    justify-content: center;
+}
+.s1_2_1_1{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 0.5rem;
+}
+input {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background: #ffffff73;
+
+}
+input:focus {
+    outline: none;
+}
+::placeholder{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.s1_2_1_2{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 35vw;
+    text-align: center;
+    gap: 0.5rem;
+}
+#signUp {
+    display: grid;
+    grid-template-rows: 0.2fr 0.5fr auto;
+    gap: 1rem;
+    background: #ffffff73;
+    border-radius: 7px;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+}
+#signUp button {
+    background: #020202;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+#signUp a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 0rem;
+    border-radius: 10px;
+    align-self: center;
+    border: #ffffff 1px solid;
+    font-size: 1rem;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+label {
+    padding-left: 1rem;
+    font-size: 0.6rem;
+    color: #ffffff;
+    
+}
+#labelConfirmPassword{
+    display: none;
+}
+#labelFirst{
+    display: none;
+}
+#labelLast {
+    display: none;
+}
+#labelPass {
+    display: none;
+}
+#labelEmail{ 
+    display: none;
+}
+#labelCountry{ 
+    display: none;
+}
